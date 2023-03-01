@@ -1,10 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300&family=Vidaloka&display=swap');
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css");
 
-body{
-    font-family: 'Oxygen', sans-serif;;
+body {
+    font-family: 'Oxygen', sans-serif;
 }
-.hero{
+
+p {
+    font-weight: 700;
+}
+
+.hero {
     background: url("assets/Intersect.png") no-repeat;
     background-position: right top;
     background-size: contain;
@@ -12,51 +17,58 @@ body{
     background-attachment: fixed;
 }
 
-.vr{
+.vr {
     opacity: 100%;
     height: 30px;
 }
 
-.navbar-nav .active{
+.navbar-nav .active {
     border-bottom: #ed8d00 solid 3px;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-family: 'Vidaloka', serif;
 }
 
-.heading1{
+.heading1 {
     font-size: 80px;
 }
 
-.text-yellow{
+.text-yellow {
     color: #ed8d00;
 }
 
-.heading2{
+.heading2 {
     font-size: 70px;
 }
 
-.featured{
+.featured {
     height: 500px;
 }
-.featured img{
+
+.featured img {
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
 
-.carousel-item{
+.carousel-item {
     height: 500px;
 }
 
-.carousel-item img{
+.carousel-item img {
     object-fit: cover;
+    object-position: 0 0;
     height: 100%;
     width: 100%;
 }
 
-.overlay{
+.overlay {
     background-color: rgba(0, 0, 0, 0.5);
     height: 100%;
     width: 100%;
@@ -64,7 +76,7 @@ h1, h2, h3, h4, h5, h6 {
     z-index: 0;
 }
 
-.btn-yellow{
+.btn-yellow {
     background-color: #ed8d00;
     padding: 10px 40px;
     color: white;
@@ -72,59 +84,49 @@ h1, h2, h3, h4, h5, h6 {
     text-transform: uppercase;
 }
 
-.btn-underlined{
+.btn-underlined {
     padding: 3px 10px;
     border-bottom: #ed8d00 3px solid;
     text-decoration: none;
     color: black;
 }
 
-.card-title{
+.card-title {
     font-size: xx-large;
 }
 
-.number{
+.number {
     padding: auto;
     font-size: 50px;
     position: absolute;
     z-index: 0;
 }
 
-
-.testimonials-next, .testimonials-prev {
-  height: 100px;
-  width: 100px;
-  outline: black;
-  background-size: 100%, 100%;
-  background-image: none;
+.testimonials-next,
+.testimonials-prev {
+    height: 100px;
+    width: 100px;
+    outline: black;
+    background-size: 100%, 100%;
+    background-image: none;
 }
 
-.testimonials-next:after
-{
-  content: '>';
-  font-size: 55px;
-  color: #ed8d00
+.testimonials-next:after {
+    content: '>';
+    font-size: 55px;
+    color: #ed8d00
 }
 
 .testimonials-prev:after {
-  content: '<';
-  font-size: 55px;
-  color: #ed8d00
+    content: '<';
+    font-size: 55px;
+    color: #ed8d00
 }
 
-.email{
-    width: 70%;
-    text-align: center;
+footer img {
+    width: 4%;
 }
 
-.footer{
-    background-color: black;
+footer a {
+    font-weight: 300;
 }
-
-.footer img {
-    width: 8%;
-}
-
-.text-gray {
-    color: gray;
-}   

@@ -130,3 +130,8 @@ footer img {
 footer a {
   font-weight: 300;
 }
+
+.fa-brands {
+    color: white;
+    font-size: 2 rem;
+}
